@@ -8,11 +8,8 @@ qira -s file.bin
 
 ## Install:
 ### step 1:
-Clone this repository.
-
-```bash
-https://github.com/mqxmm/qira-debugger-for-Kali.git
-```
+download root_Desktop_qira.tar.zst: https://t.me/spbctf/213962<br>
+download qira-img.tar.zst: https://t.me/spbctf/213958
 
 ### step 2:
 
@@ -50,3 +47,4 @@ INTERACT=-i
 if [ -t 0 ] ; then INTERACT=-ti ; fi
 exec docker exec $INTERACT -w "`pwd`" qira qira "$@"
 ```
+(author - vos)

@@ -47,4 +47,4 @@ INTERACT=-i
 if [ -t 0 ] ; then INTERACT=-ti ; fi
 exec docker exec $INTERACT -w "`pwd`" qira qira "$@"
 ```
-(author - vos)
+(author - [mrvos](https://t.me/mrvos))
